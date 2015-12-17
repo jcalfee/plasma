@@ -39,6 +39,7 @@
     "babel-types": "^6.3.14",
     "core-js": "^1.2.6",
     "esdoc": "^0.4.3",
+    "eslint-config-airbnb": "^2.1.1",
     "form-data": "^1.0.0-rc3",
     "json-loader": "^0.5.4",
     "mocha": "^2.3.4",
