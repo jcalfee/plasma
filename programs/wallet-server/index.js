@@ -1,2 +1,2 @@
-import createServer from "./src/server"
-createServer()
+import createServer from "./src/server";
+createServer();

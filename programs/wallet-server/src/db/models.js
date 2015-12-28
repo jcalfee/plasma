@@ -3,7 +3,7 @@ var connection = require("./connection");
 
 // !! Use Sequelize.STRING.BINARY for case in-sensitive columns
 
-var Wallet = connection.define('wallets', {
+var Wallet = connection.define("wallets", {
     public_key: { type: Sequelize.STRING.BINARY, allowNull: false, unique: true },
     email_sha1: { type: Sequelize.STRING.BINARY, allowNull: false, unique: true },
     signature: { type: Sequelize.STRING.BINARY, allowNull: false },

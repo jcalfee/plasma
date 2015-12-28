@@ -1,2 +1,2 @@
-var replApi = require('./ReplApi')
-replApi.cli()
+var replApi = require("./ReplApi");
+replApi.cli();

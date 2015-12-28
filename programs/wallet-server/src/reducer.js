@@ -29,7 +29,7 @@ export default function reducer(state, action) {
             const { code, encrypted_data, signature } = action;
             const result = checkToken(code);
             if (!result.valid) {
-                reply("Unauthorized", { message: result.error });
+                reply("Unauthorized", {message: result.error});
                 break;
             }
             const email_sha1 = result.seed;

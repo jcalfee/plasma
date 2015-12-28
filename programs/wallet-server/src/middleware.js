@@ -5,6 +5,6 @@ export default function createMiddleware() {
         //     case 'requestCode':
         //         break
         // }
-        return next(action)
-    }
+        return next(action);
+    };
 }
